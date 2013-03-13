@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<fanspeed>
+  <profile type="linear" default="true">
+    <name>Quiet</name>
+    <interval>500</interval>
+    <point temp="30" fan="0" />
+    <point temp="40" fan="10" />
+    <point temp="50" fan="30" />
+    <point temp="60" fan="60" />
+    <point temp="70" fan="100" />
+  </profile>
+  <profile type="linear">
+    <name>Cool</name>
+    <interval>500</interval>
+    <point temp="30" fan="0" />
+    <point temp="60" fan="100" />
+  </profile>
+  <profile type="linear">
+    <name>Full Speed</name>
+    <interval>500</interval>
+    <point temp="0" fan="100" />
+    <point temp="99" fan="100" />
+  </profile>
+</fanspeed>
