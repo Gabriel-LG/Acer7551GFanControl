@@ -1,4 +1,4 @@
 Acer7551GFanControl
 ===================
 
-Control the fan speed for Acer 7551G notebook. 
+Control the CPU-fan on Acer 7551G notebooks. 
